@@ -5,6 +5,7 @@ $ xhost +; sudo docker run --gpus all -it --rm -v /mnt/docker/tlt-experiments:/w
 ```
 
 # 2. run webcam test
+```
 ----- in the container -----
 root@52b289cd78c4:/workspace# export QT_X11_NO_MITSHM=1
 root@52b289cd78c4:/workspace# cat tlt-experiments/sample/test.py 
